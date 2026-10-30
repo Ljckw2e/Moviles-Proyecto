@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/bottom_home">
+
+    <fragment
+        android:id="@+id/bottom_home"
+        android:name="com.example.proyecto.HomeFragment"
+        android:label="Inicio" />
+
+    <fragment
+        android:id="@+id/nav_add_event"
+        android:name="com.example.proyecto.AddEventFragment"
+        android:label="Añadir Eventos" />
+
+    <fragment
+        android:id="@+id/nav_consult_event"
+        android:name="com.example.proyecto.ConsultFragment"
+        android:label="Consultar Eventos" />
+</navigation>
