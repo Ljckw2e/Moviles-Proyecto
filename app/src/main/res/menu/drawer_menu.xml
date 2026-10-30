@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_add_event" android:icon="@drawable/ic_add" android:title="Añadir Eventos" />
+        <item android:id="@+id/nav_consult_event" android:icon="@drawable/ic_search" android:title="Consultar y modificación de Eventos" />
+        <item android:id="@+id/nav_calendar" android:icon="@drawable/ic_calendar" android:title="Mostrar Calendario" />
+        <item android:id="@+id/nav_backup" android:icon="@drawable/ic_cloud_upload" android:title="Realizar Respaldo en Dropbox o google drive" />
+        <item android:id="@+id/nav_restore" android:icon="@drawable/ic_cloud_download" android:title="Restaurar datos de Dropbox o Google drive" />
+        <item android:id="@+id/nav_settings" android:icon="@drawable/ic_settings" android:title="Configuración" />
+        <item android:id="@+id/nav_about" android:icon="@drawable/ic_info" android:title="Acerca de.." />
+        <item android:id="@+id/nav_exit" android:icon="@drawable/ic_exit" android:title="Salir" />
+    </group>
+</menu>
