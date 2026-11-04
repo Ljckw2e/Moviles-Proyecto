@@ -2,4 +2,7 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="status_pendiente">#FFC107</color>
+    <color name="status_realizado">#2E9E5B</color>
+    <color name="status_aplazado">#E53935</color>
 </resources>
